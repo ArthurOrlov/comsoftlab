@@ -1562,6 +1562,31 @@ select {
     background-color: var(--btn-color);
 }
 
+.header__inner-list--item {
+	color: #fff;
+	text-decoration: none;
+	padding-right: 20px;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.menu-item {
+	background-color: #27282c;
+	border-top: 1px solid #CADAE4;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px;
+}
+.menu-target {
+	padding: 20px;
+}
+.tab-content {
+    display: none;
+}
+.tab-content-active {
+    display: block;
+}
+
 .logo_mob {
 	width: 60px;
 	height: 60px;

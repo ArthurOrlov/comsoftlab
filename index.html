@@ -212,26 +212,7 @@
                     }
                 </script>
                 
-            
 
-            <!--<div class="leftMenuTog">
-                <div class="switch-btnLeft" onclick="switchThisTog(this)"></div>               
-                <h6 class="togText" style="text-align: center; margin-top: 0px; margin-left: 8px;">Всегда скрыт</h6>
-            </div>
-
-            
-            <div class="aSet perSet" id="aPers">
-                <a href="http://127.0.0.1:8000/user_page/9" class="openUsList"><div class="persCont" id="avatar" style="background-color: rgb(51, 51, 51);"></div>
-                <h2 class="hstyle" id="nameH"></h2></a>
-                <img src="media/arrowOpen.svg" class="arrowSet">
-                <div class="smAb" id="persDop">
-                    <div class="dopCont">
-                        <a href="http://127.0.0.1:8000/logout" class="hstyleDop" id="hLogout"><img src="media/logoutLogo.svg"><h2 class="hstyleDop">Выйти</h2></a>
-                    </div>
-                </div>
-            </div>-->
-            
-            
         </div>
 
         <div class="dark_block" onclick="open_close_left_menu()"></div>
@@ -248,10 +229,58 @@
                     </button>
                     <div>
                       <ul id="menu">
-                        <li class="header__inner-list--item"><a href="#price">Услуги и цены</a></li>
-                        <li class="header__inner-list--item"><a href="#about">О компании</a></li>
-                        <li class="header__inner-list--item"><a href="#how">Отзывы</a></li>
-                        <li class="header__inner-list--item"><a href="#contacts">Контакты</a></li>
+                        <li class="menu-item">
+                            <a class="header__inner-list--item" href="#">Планировщик</a>
+                            <div class="header__inner-list--item nav__link" href="#" data-path="one">CRM &#11163;</div>
+                            <a class="header__inner-list--item nav__link" href="#" data-path="two">Склад &#11163;</a>
+                            <a class="header__inner-list--item" href="#">Инструменты</a>
+                            <a class="header__inner-list--item nav__link" href="#" data-path="three">Help desk &#11163;</a>
+                            <a class="header__inner-list--item" href="#">Финансы</a>
+                            <a class="header__inner-list--item" href="#">Аналитика</a>
+                            <a class="header__inner-list--item" href="#">База данных</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="header__inner-list--item" href="#">Документация</a>
+                            <a class="header__inner-list--item" href="#">Настройки</a>
+                            <a class="header__inner-list--item" href="#">Список обновлений</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="header__inner-list--item nav__link" href="#" data-path="four">Пользователи &#11163;</a>
+                            <a class="header__inner-list--item nav__link" href="#" data-path="five">Задачи &#11163;</a>
+                        </li>
+                        <li class="menu-target">
+                            <ul class="tab-content tab-content-active" data-target="one">
+                                <li>Сделки</li>
+                                <li>Компании</li>
+                                <li>Контакты</li>
+                                <li>Объекты</li>
+                                <li>Договоры</li>
+                                <li>Коммерческие предложения</li>
+                                <li>Счета</li>
+                                <li>Акты выполненных работ</li>
+                            </ul>
+                            <ul class="tab-content" data-target="two">
+                                <li>Закупка</li>
+                                <li>Продажи</li>
+                                <li>Товары</li>
+                            </ul>
+                            <ul class="tab-content" data-target="three">
+                                <li>Заявки</li>
+                                <li>Календарь</li>
+                                <li>Компании</li>
+                                <li>Пользователи</li>
+                                <li>Отчеты</li>
+                                <li>Парк техники</li>
+                            </ul>
+                            <ul class="tab-content" data-target="four">
+                                <li>Полный список</li>
+                                <li>Быстрый просмотр</li>
+                            </ul>
+                            <ul class="tab-content" data-target="five">
+                                <li>Быстрый просмотр</li>
+                                <li>Список задач</li>
+                            </ul>
+                        </li>
                       </ul>
                     </div>
                 </div>
